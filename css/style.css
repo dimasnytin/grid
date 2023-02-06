@@ -34,9 +34,27 @@ img{
   max-width: 100%;
 }
 
+.container{
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
 body{
   font-family: 'Helvitica', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.4;
+  color: #5c5c5e;
+}
+
+.header{
+  border-bottom: 1px solid #CACAD6;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
 }
