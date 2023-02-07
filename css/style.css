@@ -84,3 +84,14 @@ body{
   justify-content: center;
 }
 
+.top{
+  min-height: calc(100vh - 81px);
+  background-image: url(../images/top-img.jpg);
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
+.title{
+  
+}
