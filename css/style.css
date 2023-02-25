@@ -144,3 +144,18 @@ body{
 .features{
   padding: 100px 0;
 }
+
+.features__titles{
+  display: flex;
+}
+
+.features-title{
+  flex-basis: 300px;
+  padding-right: 20px;
+}
+
+.section-title{
+
+}
+
+/* https: //youtu.be/JX2uP_MNST0?t=1627 */
