@@ -1,12 +1,12 @@
 @font-face {
-  font-family: 'Helvitica', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   src: url(../fonts/helvetica.woff2);
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'Helvitica-Bold', sans-serif;
+  font-family: 'Helvetica-Bold', sans-serif;
   src: url(../fonts/helvetica-bold.woff2);
   font-style: normal;
   font-weight: 700;
@@ -53,8 +53,8 @@ body{
 }
 
 .nav{
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
   height: 80px;
 }
@@ -96,6 +96,7 @@ body{
   /* padding-top: 16%; */
   font-size: 96px;
   margin-bottom: 10px;
+  font-weight: 400;
 }
 
 .subtitle{
@@ -126,9 +127,15 @@ body{
 .buy-btn__text{
   color: #f6f4f5;
   padding: 20px 110px;
+  text-transform: uppercase;
 }
 
 .buy-btn__price{
   background-color: #f6f4f5;
   padding: 20px 105px;
+}
+
+/* стили PRODUCT FEATURES */
+.features{
+  padding: 100px 0;
 }
