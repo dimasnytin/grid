@@ -64,8 +64,13 @@ body{
   gap: 0 20px;
 }
 
+.logo{
+  justify-self: center;
+}
+
 .basket{
   position: relative;
+  justify-self: end;
 }
 
 .basket span{
