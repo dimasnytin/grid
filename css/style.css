@@ -30,6 +30,16 @@ li{
   list-style: none;
 }
 
+button{
+  color: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  font-family: inherit;
+  padding: 0;
+}
+
 img{
   max-width: 100%;
 }
@@ -103,7 +113,7 @@ body{
 }
 
 .title{
-  /* padding-top: 16%; */
+  padding-top: 16%;
   font-size: 96px;
   margin-bottom: 10px;
   font-weight: 400;
@@ -169,3 +179,33 @@ body{
   -webkit-text-fill-color: transparent;
 }
 
+.tabs{
+  display: grid;
+  grid-template-columns: 300px auto;
+}
+
+.tabs__btn{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+}
+
+.tabs__btn-item{
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.tabs__btn-item--active{
+  color: #070707;
+}
+
+.tabs__conten-item{
+  display: grid;
+}
+
+.video{
+  width: 280px;
+  height: 150px;
+  background-image: url(../images/content-2.jpg);
+}
